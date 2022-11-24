@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 Week</title>
+    <style>
+        .regform{
+            display: inline-block;
+            width: 30%;
+            margin-left: 35%;
+            text-align: center;
+            background-color: aliceblue;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .regform input{
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        #input{
+            display: flex;
+            margin-left: 25%;
+            width: 50%;
+        }
+        #checkbox{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Registration</h1>
+    <div class="regform">
+        <label>ФИО</label>
+        <input type = 'text' id="input">
+        <label>Почта</label>
+        <input type = 'mail' id="input">
+        <label>Телефон</label>
+        <input type = 'tel' id="input">
+        <label>Дата рождения</label>
+        <input type = 'date'  id="input"><br>
+        <label>Знание программирования</label><br><br>
+        <input type="checkbox"><label id="checkbox">HTML</label>
+        <input type="checkbox"><label id="checkbox">CSS</label>
+        <input type="checkbox"><label id="checkbox">JS</label><br><br>
+        <label>Пол</label>
+        <input type="radio" id="contactChoice1">
+        <label for="contactChoice1">Мужской</label>
+        <input type="radio" id="contactChoice2">
+        <label for="contactChoice2">Женский</label><br><br>
+        <label>Придумайте пароль</label>
+        <input type = 'password' id="input">
+        <form action="spage.html">
+            <input type="submit" value="Next page">
+        </form>
+    </div>
+</body>
+</html> 

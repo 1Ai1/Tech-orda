@@ -6,4 +6,4 @@
 <br>
 <a href ="3w/index.html">3week github page</a>
 <br>
-<a href ="4w/day8/index.html">3week github page</a>
+<a href ="4w/day8/index.html">4week github page</a>
